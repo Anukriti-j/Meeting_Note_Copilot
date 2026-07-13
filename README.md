@@ -4,6 +4,9 @@ Turns a short meeting recording into a searchable, structured record: transcript
 structured JSON summary (summary + action items) -> vector store, with grounded Q&A
 across past meetings and an agent that files action items through real MCP tools.
 
+Go through this demo video of project for quick overview:
+https://drive.google.com/file/d/1CQi1fobYlkLE0BDGHlw0Lm79QpmAy21-/view?usp=sharing
+
 Built for the GenAI Assignments brief, Option 1.
 
 ## Architecture
