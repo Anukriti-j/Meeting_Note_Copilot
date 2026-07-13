@@ -12,9 +12,6 @@ meeting's action items — some have due dates and should get a calendar event, 
 don't. A fixed pipeline would have to hard-code that branching; an agent with tools lets
 the model decide it per action item instead.
 
-_[Your take: did you agree with this split once you'd run it a few times? Did the agent
-ever call a tool you didn't expect, or refuse to call one it should have?]_
-
 ## A failure I hit while building, and how I debugged it
 
 After seeding the store with my 4 sample meetings plus 2 real recordings I made myself,
