@@ -1,0 +1,51 @@
+Meeting: Billing migration follow-up
+Suggested meeting-id: billing-followup-2026-07-13
+Target length: ~2.5 minutes read aloud at a normal conversational pace.
+
+Read all parts yourself, or grab a colleague for two voices. Pause briefly between lines
+like a real meeting, don't rush it.
+
+---
+
+Anukriti: Hey everyone, quick follow-up on the billing migration cutover from last week.
+Rohan, how did the production cutover go on Tuesday?
+
+Rohan: It went smoothly, actually. Zero downtime during the switch to Stripe. The dashboard
+showed all transactions routing correctly within the first ten minutes.
+
+Anukriti: That's great news. So we can confirm the billing migration to Stripe is now
+fully live in production, no rollback needed.
+
+Priya: I did notice a couple of support tickets asking why the invoice format changed.
+Nothing urgent, but we should get ahead of it before it becomes a bigger thing.
+
+Anukriti: Good catch. Let's decide to send a short customer-facing email explaining the
+new invoice format and confirming the migration is complete. Priya, can you own that?
+
+Priya: Sure, I'll draft it and send it out by July 15th.
+
+Rohan: I'll keep an eye on the payment dashboard for the next few days too, just to make
+sure nothing slips through after the cutover.
+
+Anukriti: Perfect. One more thing, our internal runbook still has the old rollback steps
+for the previous billing provider. Someone should clean that up so it's not confusing
+during the next incident.
+
+Rohan: I can take that one, but I don't have a hard deadline for it yet, I'll just fit it
+in sometime this week.
+
+Priya: While we're at it, how's the Kafka topic setup going for the notifications service?
+
+Anukriti: Almost done, I finished the permissions yesterday, so Priya should be unblocked
+on the consumer service design doc now.
+
+Priya: Great, I'll pick that back up today.
+
+Anukriti: Alright, to summarize: the billing migration to Stripe is complete and stable.
+Priya will send a customer email about the invoice format by July 15th. Rohan will update
+the internal runbook to remove the old rollback steps, and keep monitoring the payment
+dashboard this week. Anything else? No? Good, talk soon everyone.
+
+Rohan: Bye.
+
+Priya: Bye.

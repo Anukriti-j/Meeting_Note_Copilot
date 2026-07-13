@@ -1,0 +1,50 @@
+[
+  {
+    "id": "eval-1",
+    "question": "What did we decide about the billing migration?",
+    "expected_meeting": "standup-2026-07-08",
+    "expected_keywords": ["Tuesday", "Rohan", "cutover"]
+  },
+  {
+    "id": "eval-2",
+    "question": "Who owns updating the support macros before the billing cutover, and by when?",
+    "expected_meeting": "standup-2026-07-08",
+    "expected_keywords": ["Priya", "Monday"]
+  },
+  {
+    "id": "eval-3",
+    "question": "What architecture did we choose for the notifications service, and why?",
+    "expected_meeting": "design-review-2026-07-06",
+    "expected_keywords": ["Kafka", "queue"]
+  },
+  {
+    "id": "eval-4",
+    "question": "What did we decide about the analytics dashboard this sprint?",
+    "expected_meeting": "sprint-planning-2026-07-01",
+    "expected_keywords": ["deprioritized"]
+  },
+  {
+    "id": "eval-5",
+    "question": "In the June 26th retro, what went well with Stripe testing?",
+    "expected_meeting": "retro-2026-06-26",
+    "expected_keywords": ["sandbox", "edge case"]
+  },
+  {
+    "id": "eval-6",
+    "question": "Who is fixing the on-call rotation imbalance, and by when?",
+    "expected_meeting": "retro-2026-06-26",
+    "expected_keywords": ["Rohan", "week"]
+  },
+  {
+    "id": "eval-7",
+    "question": "What did we decide about the push-notification opt-in work timeline?",
+    "expected_meeting": "design-review-2026-07-06",
+    "expected_keywords": ["delay", "week"]
+  },
+  {
+    "id": "eval-8",
+    "question": "What's the marketing budget for next quarter?",
+    "expected_meeting": null,
+    "expected_keywords": ["can't find"]
+  }
+]

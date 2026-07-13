@@ -1,0 +1,10 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+UID:661208a83e5848c18dc2b687a80e3be3
+DTSTAMP:20260716T090000
+DTSTART:20260716T090000
+SUMMARY:Draft consumer service design document
+DESCRIPTION:Draft the consumer service design document for the Kafka-based notifications system. (owner: Priya)
+END:VEVENT
+END:VCALENDAR

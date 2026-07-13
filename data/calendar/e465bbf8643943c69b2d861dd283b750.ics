@@ -1,0 +1,10 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+UID:e465bbf8643943c69b2d861dd283b750
+DTSTAMP:20260712T090000
+DTSTART:20260712T090000
+SUMMARY:Test iOS features (ICM 355, 3488, 3341)
+DESCRIPTION:Test all features of iOS, including tickets ICM 355, 3488, and 3341, which are related to UI errors on the smart core screen. (owner: Rishabh)
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,10 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+UID:848609afb3de40d78ada7a5c74b422c6
+DTSTAMP:20260715T090000
+DTSTART:20260715T090000
+SUMMARY:Production cutover for billing migration
+DESCRIPTION:Perform production cutover for billing migration (owner: Rohan)
+END:VEVENT
+END:VCALENDAR

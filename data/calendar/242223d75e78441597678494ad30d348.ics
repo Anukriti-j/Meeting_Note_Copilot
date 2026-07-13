@@ -1,0 +1,10 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+UID:242223d75e78441597678494ad30d348
+DTSTAMP:20260714T090000
+DTSTART:20260714T090000
+SUMMARY:Write up the timebox proposal for support macro cleanup and share it
+DESCRIPTION:Write up the timebox proposal for support macro cleanup and share it (owner: Priya)
+END:VEVENT
+END:VCALENDAR

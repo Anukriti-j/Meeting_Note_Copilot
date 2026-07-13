@@ -1,0 +1,10 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+UID:62ce9f54c2914cdb8e482b9d8e0c9bcc
+DTSTAMP:20260715T090000
+DTSTART:20260715T090000
+SUMMARY:Work on ICM 5523
+DESCRIPTION:Work on ICM 5523, which involves maintaining all device connection and health connect details associated with the user at the user level, storing data not in the keychain so that connection details are not cleared on logout. (owner: Abhishek)
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,10 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+UID:d82166591d9d4a08a75b36a1bb81bf9f
+DTSTAMP:20260715T090000
+DTSTART:20260715T090000
+SUMMARY:Draft and send customer-facing email
+DESCRIPTION:Draft and send a customer-facing email explaining the new invoice format and confirming the migration is complete. (owner: Priya)
+END:VEVENT
+END:VCALENDAR
