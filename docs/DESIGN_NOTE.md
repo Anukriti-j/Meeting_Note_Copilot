@@ -1,8 +1,4 @@
-# Design note (~300 words)
-
-> Fill this in with your own voice before submitting — the placeholders below are a
-> starting skeleton, not the final answer. The rubric specifically wants "a real
-> failure story," which only you can write after actually running this end to end.
+# Design note 
 
 ## Architecture pattern chosen, and why
 
@@ -16,14 +12,8 @@ meeting's action items — some have due dates and should get a calendar event, 
 don't. A fixed pipeline would have to hard-code that branching; an agent with tools lets
 the model decide it per action item instead.
 
-I stayed convinced of this split after running it repeatedly on different meetings. The
-clearest evidence: for a meeting with a mix of dated and undated action items, the agent
-consistently called `save_action_items` once for everything, then called
-`create_calendar_event` only for the items that actually had a `due_date`, skipping the
-undated ones without being told to check that field explicitly in the moment — that
-distinction was inferred from the system prompt and the item data, not from an
-if-statement I wrote. That's exactly the behavior a fixed pipeline can't give you without
-hard-coding the same check in Python.
+_[Your take: did you agree with this split once you'd run it a few times? Did the agent
+ever call a tool you didn't expect, or refuse to call one it should have?]_
 
 ## A failure I hit while building, and how I debugged it
 
